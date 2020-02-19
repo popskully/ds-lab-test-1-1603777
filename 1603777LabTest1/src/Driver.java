@@ -14,5 +14,21 @@ public class Driver {
 			
 			System.out.println(new Shoe[i]); 
 		}
+		
+		ShoeList list = new ShoeList(null);
+		
+		System.out.println("Adding");
+		for(int i=1; i<10; i++) {
+		shoes = new Shoe(i, null, i, "Shoe");
+		list.insert(shoes);
+	}
+	list.show();
+	for(int i=1; i<10; i++) {
+//		ShoeList = shoe.remove();
+		System.out.println("Deleted: ");
+		shoes.display();
+	}
+//	Shoe.show();
+		
 	}
 }

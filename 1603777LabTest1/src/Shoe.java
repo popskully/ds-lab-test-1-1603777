@@ -45,6 +45,10 @@ public class Shoe {
 		this.designer = designer;
 	}
 	
+	public String toString() {
+		return "Shoe [id=" + id + ", model=" + model + ", size=" + size+ ", designer=" + designer+ "]";
+	}
+	
 	public void display() {
 		System.out.println(toString());
 	}
