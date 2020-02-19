@@ -50,7 +50,7 @@ public class ShoeList {
 	
 	public void retrieve() {
 		if(isEmpty()) {
-			System.out.println("List is empty");
+			System.out.println("Unable to locate any data in the list");
 		} else { 
 			
 		}
@@ -71,7 +71,7 @@ public class ShoeList {
 	
 	public void show() {
 		if(!isEmpty()) {
-			System.out.println("List is empty");
+			System.out.println("Nothing to display, list is empty");
 		} else {
 			while(head.getNext() != null) {
 				head.display();
